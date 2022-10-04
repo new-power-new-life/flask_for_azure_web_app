@@ -89,4 +89,4 @@ stages:
           # or may not need a startup command for your app. 
           # Flask 只需要加入最後這一句  @ 2022-10-04
 
-              startUpCommand: 'gunicorn --bind=0.0.0.0 --workers=4 startup:app'              
+              startUpCommand: 'gunicorn --bind=0.0.0.0  startup:app'              
